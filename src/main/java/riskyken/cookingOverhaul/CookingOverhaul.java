@@ -39,6 +39,7 @@ public class CookingOverhaul {
     public void load(FMLInitializationEvent event) {
         CraftingManager.init();
         ModBlocks.registerTileEntities();
+
         //new GuiHandler();
         //PacketHandler.init();
         proxy.init();
